@@ -161,3 +161,4 @@ if [[ "$TERM" == "xterm" ]]; then
 fi
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 . "$HOME/.cargo/env"
+hyfetch --distro=Arch -p boyflux2
