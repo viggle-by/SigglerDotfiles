@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="devcontainers"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME="devcontainers"
@@ -104,6 +104,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
-PROMPT='
- mysticgiggle@archlinux %1~ %# '
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
