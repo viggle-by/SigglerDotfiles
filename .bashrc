@@ -159,5 +159,4 @@ if [[ "$TERM" == "xterm" ]]; then
     # Append to PROMPT_COMMAND to call precmd before displaying the prompt
     PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }precmd"
 fi
-PS1=' mysticgiggle@archlinux %1~ %# '
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
