@@ -11,3 +11,5 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt install fastfetch
+
+wget https://github.com/viggle-by/SigglerDotfiles/raw/refs/heads/main/config.jsonc
