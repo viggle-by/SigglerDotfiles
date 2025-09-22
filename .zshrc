@@ -105,3 +105,4 @@ source $ZSH/oh-my-zsh.sh
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/codespace/.cargo/bin/cargo shellenv)"
