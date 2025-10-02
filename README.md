@@ -14,7 +14,7 @@ sudo apt install fastfetch
 
 wget https://github.com/viggle-by/SigglerDotfiles/raw/refs/heads/main/config.jsonc](https://raw.githubusercontent.com/viggle-by/SigglerDotfiles/refs/heads/main/.config/fastfetch/config.jsonc
 
-#### for ubuntu 25.04
+For Ubuntu 25.04
 ```sh
 git clone https://github.com/viggle-by/SigglerDotfiles.git ~/.dotfiles
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
